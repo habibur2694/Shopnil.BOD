@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    padding: 20px;
+}
+
+.birthday-container {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.birthday-message {
+    font-size: 3.5rem;
+    color: #ff6347;
+    margin: 0;
+}
+
+.candle {
+    width: 60px; /* Adjust size as needed */
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.friend-image {
+    width: 110px; /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.popup-message {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background-color: #ffebcd;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    color: #ff6347;
+    max-width: 300px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.footer {
+    background-color: #fff;
+    border-top: 2px solid #ff6347;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
